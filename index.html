@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Calculadora de IMC </title>
+</head>
+
+<body>
+    <header>
+        <div class="titulo">
+            <h1>Calculadora de IMC</h1>
+            <h3>Vamos calcular seu IMC?</h3>
+        </div>
+    </header>
+    <section>
+
+
+        <div class="containe">
+            <div class="box">
+
+
+                <label for="peso">Peso</label>
+                <input type="number" name="peso" id="peso"><br>
+                <label for="altura">Altura</label>
+                <input type="number" name="altura" id="altura" placeholder="EX.:0,00"><br>
+                <button onclick="calcular()">Calcular</button>
+
+
+
+                <div id='resposta'>
+                </div>
+            </div>
+        </div>
+
+
+
+        <table>
+            <div class="container">
+                <div class="box1">
+
+
+                    <h2>Confira o seu IMC na tabela abaixo:</h2>
+                    <tr>
+
+                        <td id="linha1"> IMC</td>
+                        <td id="linha2"> Classificação</td>
+                        <td id="linha3"> Obesidade (grau) </td>
+                    </tr>
+                    <tr id="magreza">
+                        <td>Menor que 18.5</td>
+                        <td>Magreza</td>
+                        <td>0</td>
+                    </tr>
+                    <tr id="normal">
+                        <td>Entre 18.5 e 24.9</td>
+                        <td>Normal</td>
+                        <td>0</td>
+                    </tr>
+                    <tr id="sobrePeso">
+                        <td>Entre 25.0 e 29.9</td>
+                        <td>Sobrepeso</td>
+                        <td>I</td>
+                    </tr>
+                    <tr id="sobrePeso2">
+                        <td>Entre 30.0 e 39.9</td>
+                        <td>Obesidade</td>
+                        <td>II</td>
+                    </tr>
+                    <tr id="obeso">
+                        <td>Maior que 40.0</td>
+                        <td>Obesidade grave</td>
+                        <td>III</td>
+                    </tr>
+                </div>
+            </div>
+        </table>
+
+    </section>
+
+
+    <footer>
+        &copy;Uziel Developer
+    </footer>
+    <script src="script.js "></script>
+</body>
+
+</html>
