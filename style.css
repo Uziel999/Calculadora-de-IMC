@@ -1,0 +1,49 @@
+body {
+    background-color: aliceblue;
+}
+
+header {
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px;
+}
+
+table {
+    border-style: solid;
+    background-color: rgb(179, 221, 96);
+    border-color: black;
+    text-align: justify;
+    padding: 10px;
+    margin-left: 360px;
+}
+
+td {
+    border-style: solid;
+    padding: 7px;
+}
+
+#linha1,
+#linha2,
+#linha3 {
+    background-color: rgb(96, 133, 22);
+}
+
+section {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+#resposta {
+    font-size: 13pt;
+}
+
+.box,
+.box1 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+}
